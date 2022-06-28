@@ -35,7 +35,7 @@ The repository is a start point for most of my professional projects; for this, 
 Cloning the Repository:
 
 ```
-$ git clone https://github.com/fl4viooliveira/django_ecommerce.git
+$ git clone https://github.com/binkyo1116/Django-Paypal-Stripe-eCommerce.git
 
 $ cd django_ecommerce 
 
