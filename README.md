@@ -37,7 +37,7 @@ Cloning the Repository:
 ```
 $ git clone https://github.com/binkyo1116/Django-Paypal-Stripe-eCommerce.git
 
-$ cd django_ecommerce 
+$ cd Django-Paypal-Stripe-eCommerce 
 
 ```
 
