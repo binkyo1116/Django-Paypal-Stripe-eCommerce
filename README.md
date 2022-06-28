@@ -110,23 +110,3 @@ Finishing running server:
 $ python manage.py runserver
 
 ```
-
-## Contributing
-
-You can send how many PR's do you want, I'll be glad to analyse and accept them! And if you have any question about the project...
-
-📫Email-me: <a href='mailto:fl4viooliveira@gmail.com'>fl4viooliveira@gmail.com</a>
-
- <a href="https://www.linkedin.com/in/fl4viooliveira/">
-    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>&nbsp;&nbsp;
-
-Thank you!
-
-## License
-
-<a href="https://github.com/fl4viooliveira/django_ecommerce/blob/master/LICENSE">
-    <img alt="NPM" src="https://img.shields.io/npm/l/license?style=for-the-badge">
-</a>&nbsp;&nbsp;
-
-This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/fl4viooliveira/django_ecommerce/blob/master/LICENSE) file for details.
