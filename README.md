@@ -1,634 +1,152 @@
-Contribution: 2019-06-12 20:00
+# Django E-commerce.
 
-Contribution: 2019-06-12 20:01
+<p align='center'>
+<img src="https://img.shields.io/badge/Django-239120?logo=django&logoColor=white" />
+<img src="https://img.shields.io/badge/Python-239120?logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/SQL%20Server-CC2927?logo=microsoft-sql-server&logoColor=white" />
+<img src="https://img.shields.io/badge/html5-E34F26?logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/css3-1572B6?logo=css3&logoColor=white" />
+<img src="https://img.shields.io/badge/bootstrap-563D7C?logo=bootstrap&logoColor=white" />
+<img src="https://img.shields.io/badge/Github-181717?logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/PayPal-000144?logo=paypal&logoColor=white" />
+</p>
 
-Contribution: 2019-06-12 20:02
 
-Contribution: 2019-06-20 20:00
+<hr class="dotted">
+It is an E-commerce system built in Django. It contains all the essentials for adding products and use PayPal and Stripe as payment systems.
 
-Contribution: 2019-06-20 20:01
+## About this Project:
 
-Contribution: 2019-06-20 20:02
+It is an E-commerce system built in Django. It contains all the essentials for adding products and use PayPal and Stripe as payment systems.
 
-Contribution: 2019-06-20 20:03
+The repository is a start point for most of my professional projects; for this, I'm using as a part of my portfolio, feel free to use wherever you want. I'll be happy if you provide any feedback or code improvements or suggestions.
 
-Contribution: 2019-06-20 20:04
+Connect with me at:
 
-Contribution: 2019-06-20 20:05
+<p align='center'>
+    
+  <a href="https://www.linkedin.com/in/fl4viooliveira/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>&nbsp;&nbsp;
+  <a href="https://stackoverflow.com/users/13045151/">
+    <img src="https://img.shields.io/badge/stackoverflow-%23E4405F.svg?&style=for-the-badge&logo=stackoverflow&logoColor=white" />        
+  </a>&nbsp;&nbsp;
+  
+</p>
 
-Contribution: 2019-06-20 20:06
+<p align='center'>
+  📫 How to reach me: <a href='mailto:fl4viooliveira@gmail.com'>fl4viooliveira@gmail.com</a>
+</p>
+<p align='center'>
+  <a href="#"><img src="https://badges.pufler.dev/visits/fl4viooliveira/django_ecommerce"></a> 
+</p>
 
-Contribution: 2019-06-20 20:07
+## Some technical information:
 
-Contribution: 2019-07-07 20:00
+- Django - 3.1.1 
+- Django Allauth - 0.42.0
+- Django Crispy Forms - 1.9.2
+- Django Environ - 0.4.5
+- Stripe - 2.51.0
 
-Contribution: 2019-07-07 20:01
 
-Contribution: 2019-07-07 20:02
+## To Install:
 
-Contribution: 2019-07-07 20:03
+Cloning the Repository:
 
-Contribution: 2019-07-07 20:04
+```
+$ git clone https://github.com/fl4viooliveira/django_ecommerce.git
 
-Contribution: 2019-07-07 20:05
+$ cd django_ecommerce 
 
-Contribution: 2019-07-07 20:06
+```
 
-Contribution: 2019-07-11 20:00
+Installing the environment control:
 
-Contribution: 2019-07-11 20:01
+```
+$ pip install virtualenv
 
-Contribution: 2019-07-11 20:02
+$ virtualenv env
 
-Contribution: 2019-07-11 20:03
+```
 
-Contribution: 2019-07-12 20:00
+Activating the environment:
 
-Contribution: 2019-07-12 20:01
+on Windows:
+```
+env\Scripts\activate
 
-Contribution: 2019-07-12 20:02
+```
+on Mac OS / Linux:
+```
+$ source env/bin/activate
 
-Contribution: 2019-07-12 20:03
+```
 
-Contribution: 2019-07-12 20:04
+Installing dependencies:
 
-Contribution: 2019-07-12 20:05
+```
+$ pip install -r requirements.txt
 
-Contribution: 2019-07-12 20:06
+```
 
-Contribution: 2019-07-12 20:07
+Create a .env file on ecom folder (/ecom/.env) setting all requirements without using space after "=". 
 
-Contribution: 2019-08-06 20:00
+Copy and paste on our .env file:
 
-Contribution: 2019-08-06 20:01
+```
+DEBUG=
+SECRET_KEY=
+DEFAULT_FROM_EMAIL=
+NOTIFY_EMAIL=
+PAYPAL_SANDBOX_CLIENT_ID=
+PAYPAL_SANDBOX_SECRET_KEY=
+PAYPAL_LIVE_CLIENT_ID=
+PAYPAL_LIVE_SECRET_KEY=
+STRIPE_PUBLIC_KEY=
+STRIPE_SECRET_KEY=
+STRIPE_WEBHOOK_SECRET=
 
-Contribution: 2019-08-06 20:02
+```
 
-Contribution: 2019-08-09 20:00
+Last commands to start:
 
-Contribution: 2019-08-09 20:01
+```
+$ python manage.py makemigrations
 
-Contribution: 2019-08-09 20:02
+$ python manage.py migrate
 
-Contribution: 2019-08-09 20:03
+```
+Create a super user:
 
-Contribution: 2019-08-09 20:04
+```
+$ python manage.py createsuperuser admin-name
 
-Contribution: 2019-08-09 20:05
+```
 
-Contribution: 2019-08-09 20:06
+Finishing running server:
 
-Contribution: 2019-08-12 20:00
+```
+$ python manage.py runserver
 
-Contribution: 2019-08-12 20:01
+```
 
-Contribution: 2019-08-12 20:02
+## Contributing
 
-Contribution: 2019-08-12 20:03
+You can send how many PR's do you want, I'll be glad to analyse and accept them! And if you have any question about the project...
 
-Contribution: 2019-08-12 20:04
+📫Email-me: <a href='mailto:fl4viooliveira@gmail.com'>fl4viooliveira@gmail.com</a>
 
-Contribution: 2019-08-12 20:05
+ <a href="https://www.linkedin.com/in/fl4viooliveira/">
+    <img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>&nbsp;&nbsp;
 
-Contribution: 2019-08-12 20:06
+Thank you!
 
-Contribution: 2019-08-12 20:07
+## License
 
-Contribution: 2019-08-12 20:08
+<a href="https://github.com/fl4viooliveira/django_ecommerce/blob/master/LICENSE">
+    <img alt="NPM" src="https://img.shields.io/npm/l/license?style=for-the-badge">
+</a>&nbsp;&nbsp;
 
-Contribution: 2019-08-17 20:00
-
-Contribution: 2019-08-17 20:01
-
-Contribution: 2019-08-22 20:00
-
-Contribution: 2019-08-22 20:01
-
-Contribution: 2019-08-23 20:00
-
-Contribution: 2019-08-26 20:00
-
-Contribution: 2019-08-26 20:01
-
-Contribution: 2019-08-26 20:02
-
-Contribution: 2019-08-26 20:03
-
-Contribution: 2019-08-26 20:04
-
-Contribution: 2019-08-26 20:05
-
-Contribution: 2019-08-26 20:06
-
-Contribution: 2019-08-29 20:00
-
-Contribution: 2019-08-29 20:01
-
-Contribution: 2019-08-29 20:02
-
-Contribution: 2019-08-29 20:03
-
-Contribution: 2019-08-29 20:04
-
-Contribution: 2019-08-29 20:05
-
-Contribution: 2019-08-29 20:06
-
-Contribution: 2019-08-29 20:07
-
-Contribution: 2019-08-29 20:08
-
-Contribution: 2019-09-03 20:00
-
-Contribution: 2019-09-03 20:01
-
-Contribution: 2019-09-03 20:02
-
-Contribution: 2019-09-03 20:03
-
-Contribution: 2019-09-05 20:00
-
-Contribution: 2019-09-05 20:01
-
-Contribution: 2019-09-05 20:02
-
-Contribution: 2019-09-05 20:03
-
-Contribution: 2019-09-05 20:04
-
-Contribution: 2019-09-05 20:05
-
-Contribution: 2019-09-05 20:06
-
-Contribution: 2019-09-05 20:07
-
-Contribution: 2019-09-12 20:00
-
-Contribution: 2019-09-12 20:01
-
-Contribution: 2019-09-12 20:02
-
-Contribution: 2019-09-17 20:00
-
-Contribution: 2019-09-17 20:01
-
-Contribution: 2019-09-17 20:02
-
-Contribution: 2019-09-17 20:03
-
-Contribution: 2019-09-17 20:04
-
-Contribution: 2019-09-17 20:05
-
-Contribution: 2019-09-22 20:00
-
-Contribution: 2019-09-22 20:01
-
-Contribution: 2019-09-22 20:02
-
-Contribution: 2019-09-29 20:00
-
-Contribution: 2019-09-29 20:01
-
-Contribution: 2019-09-29 20:02
-
-Contribution: 2019-09-29 20:03
-
-Contribution: 2019-09-29 20:04
-
-Contribution: 2019-09-29 20:05
-
-Contribution: 2019-09-30 20:00
-
-Contribution: 2019-09-30 20:01
-
-Contribution: 2019-09-30 20:02
-
-Contribution: 2019-09-30 20:03
-
-Contribution: 2019-09-30 20:04
-
-Contribution: 2019-09-30 20:05
-
-Contribution: 2019-10-05 20:00
-
-Contribution: 2019-10-05 20:01
-
-Contribution: 2019-10-07 20:00
-
-Contribution: 2019-10-11 20:00
-
-Contribution: 2019-10-15 20:00
-
-Contribution: 2019-10-15 20:01
-
-Contribution: 2019-10-19 20:00
-
-Contribution: 2019-10-23 20:00
-
-Contribution: 2019-10-23 20:01
-
-Contribution: 2019-10-23 20:02
-
-Contribution: 2019-10-23 20:03
-
-Contribution: 2019-10-23 20:04
-
-Contribution: 2019-10-23 20:05
-
-Contribution: 2019-10-23 20:06
-
-Contribution: 2019-10-23 20:07
-
-Contribution: 2019-10-23 20:08
-
-Contribution: 2019-10-26 20:00
-
-Contribution: 2019-10-26 20:01
-
-Contribution: 2019-10-26 20:02
-
-Contribution: 2019-10-27 20:00
-
-Contribution: 2019-10-27 20:01
-
-Contribution: 2019-10-27 20:02
-
-Contribution: 2019-10-27 20:03
-
-Contribution: 2019-10-27 20:04
-
-Contribution: 2019-10-27 20:05
-
-Contribution: 2019-11-05 20:00
-
-Contribution: 2019-11-05 20:01
-
-Contribution: 2019-11-08 20:00
-
-Contribution: 2019-11-11 20:00
-
-Contribution: 2019-11-11 20:01
-
-Contribution: 2019-11-11 20:02
-
-Contribution: 2019-11-11 20:03
-
-Contribution: 2019-11-11 20:04
-
-Contribution: 2019-11-11 20:05
-
-Contribution: 2019-11-11 20:06
-
-Contribution: 2019-11-11 20:07
-
-Contribution: 2019-11-13 20:00
-
-Contribution: 2019-11-13 20:01
-
-Contribution: 2019-11-13 20:02
-
-Contribution: 2019-11-29 20:00
-
-Contribution: 2019-11-29 20:01
-
-Contribution: 2019-11-29 20:02
-
-Contribution: 2019-11-29 20:03
-
-Contribution: 2019-11-29 20:04
-
-Contribution: 2019-11-29 20:05
-
-Contribution: 2019-12-02 20:00
-
-Contribution: 2019-12-02 20:01
-
-Contribution: 2019-12-02 20:02
-
-Contribution: 2019-12-02 20:03
-
-Contribution: 2019-12-02 20:04
-
-Contribution: 2019-12-02 20:05
-
-Contribution: 2019-12-04 20:00
-
-Contribution: 2019-12-04 20:01
-
-Contribution: 2019-12-04 20:02
-
-Contribution: 2019-12-04 20:03
-
-Contribution: 2019-12-04 20:04
-
-Contribution: 2019-12-04 20:05
-
-Contribution: 2019-12-04 20:06
-
-Contribution: 2019-12-08 20:00
-
-Contribution: 2019-12-08 20:01
-
-Contribution: 2019-12-08 20:02
-
-Contribution: 2019-12-08 20:03
-
-Contribution: 2019-12-08 20:04
-
-Contribution: 2019-12-08 20:05
-
-Contribution: 2019-12-08 20:06
-
-Contribution: 2019-12-13 20:00
-
-Contribution: 2019-12-14 20:00
-
-Contribution: 2019-12-14 20:01
-
-Contribution: 2019-12-14 20:02
-
-Contribution: 2019-12-14 20:03
-
-Contribution: 2019-12-14 20:04
-
-Contribution: 2019-12-14 20:05
-
-Contribution: 2019-12-14 20:06
-
-Contribution: 2019-12-14 20:07
-
-Contribution: 2019-12-15 20:00
-
-Contribution: 2019-12-15 20:01
-
-Contribution: 2019-12-15 20:02
-
-Contribution: 2019-12-15 20:03
-
-Contribution: 2019-12-15 20:04
-
-Contribution: 2019-12-19 20:00
-
-Contribution: 2019-12-19 20:01
-
-Contribution: 2019-12-19 20:02
-
-Contribution: 2019-12-19 20:03
-
-Contribution: 2019-12-19 20:04
-
-Contribution: 2019-12-19 20:05
-
-Contribution: 2019-12-19 20:06
-
-Contribution: 2019-12-20 20:00
-
-Contribution: 2019-12-20 20:01
-
-Contribution: 2019-12-20 20:02
-
-Contribution: 2019-12-20 20:03
-
-Contribution: 2019-12-20 20:04
-
-Contribution: 2019-12-20 20:05
-
-Contribution: 2019-12-20 20:06
-
-Contribution: 2019-12-20 20:07
-
-Contribution: 2019-12-20 20:08
-
-Contribution: 2019-12-24 20:00
-
-Contribution: 2019-12-24 20:01
-
-Contribution: 2019-12-24 20:02
-
-Contribution: 2019-12-24 20:03
-
-Contribution: 2019-12-24 20:04
-
-Contribution: 2019-12-24 20:05
-
-Contribution: 2019-12-24 20:06
-
-Contribution: 2019-12-30 20:00
-
-Contribution: 2019-12-30 20:01
-
-Contribution: 2019-12-30 20:02
-
-Contribution: 2019-12-30 20:03
-
-Contribution: 2019-12-30 20:04
-
-Contribution: 2019-12-30 20:05
-
-Contribution: 2019-12-30 20:06
-
-Contribution: 2019-12-30 20:07
-
-Contribution: 2019-12-30 20:08
-
-Contribution: 2020-01-04 20:00
-
-Contribution: 2020-01-04 20:01
-
-Contribution: 2020-01-04 20:02
-
-Contribution: 2020-01-04 20:03
-
-Contribution: 2020-01-04 20:04
-
-Contribution: 2020-01-04 20:05
-
-Contribution: 2020-01-04 20:06
-
-Contribution: 2020-01-04 20:07
-
-Contribution: 2020-01-10 20:00
-
-Contribution: 2020-01-13 20:00
-
-Contribution: 2020-01-14 20:00
-
-Contribution: 2020-01-17 20:00
-
-Contribution: 2020-01-17 20:01
-
-Contribution: 2020-01-17 20:02
-
-Contribution: 2020-01-17 20:03
-
-Contribution: 2020-01-20 20:00
-
-Contribution: 2020-01-20 20:01
-
-Contribution: 2020-01-20 20:02
-
-Contribution: 2020-01-20 20:03
-
-Contribution: 2020-01-20 20:04
-
-Contribution: 2020-01-24 20:00
-
-Contribution: 2020-01-24 20:01
-
-Contribution: 2020-01-24 20:02
-
-Contribution: 2020-01-24 20:03
-
-Contribution: 2020-01-24 20:04
-
-Contribution: 2020-01-24 20:05
-
-Contribution: 2020-01-24 20:06
-
-Contribution: 2020-01-24 20:07
-
-Contribution: 2020-01-24 20:08
-
-Contribution: 2020-01-28 20:00
-
-Contribution: 2020-01-28 20:01
-
-Contribution: 2020-01-28 20:02
-
-Contribution: 2020-02-03 20:00
-
-Contribution: 2020-02-03 20:01
-
-Contribution: 2020-02-03 20:02
-
-Contribution: 2020-02-03 20:03
-
-Contribution: 2020-02-05 20:00
-
-Contribution: 2020-02-05 20:01
-
-Contribution: 2020-02-05 20:02
-
-Contribution: 2020-02-05 20:03
-
-Contribution: 2020-02-05 20:04
-
-Contribution: 2020-02-07 20:00
-
-Contribution: 2020-02-07 20:01
-
-Contribution: 2020-02-08 20:00
-
-Contribution: 2020-02-08 20:01
-
-Contribution: 2020-02-08 20:02
-
-Contribution: 2020-02-08 20:03
-
-Contribution: 2020-02-08 20:04
-
-Contribution: 2020-02-08 20:05
-
-Contribution: 2020-02-08 20:06
-
-Contribution: 2020-02-08 20:07
-
-Contribution: 2020-02-10 20:00
-
-Contribution: 2020-02-13 20:00
-
-Contribution: 2020-02-13 20:01
-
-Contribution: 2020-02-17 20:00
-
-Contribution: 2020-02-17 20:01
-
-Contribution: 2020-02-17 20:02
-
-Contribution: 2020-02-17 20:03
-
-Contribution: 2020-02-18 20:00
-
-Contribution: 2020-02-18 20:01
-
-Contribution: 2020-02-18 20:02
-
-Contribution: 2020-02-18 20:03
-
-Contribution: 2020-02-19 20:00
-
-Contribution: 2020-02-22 20:00
-
-Contribution: 2020-02-22 20:01
-
-Contribution: 2020-02-22 20:02
-
-Contribution: 2020-02-22 20:03
-
-Contribution: 2020-02-22 20:04
-
-Contribution: 2020-03-06 20:00
-
-Contribution: 2020-03-07 20:00
-
-Contribution: 2020-03-07 20:01
-
-Contribution: 2020-03-07 20:02
-
-Contribution: 2020-03-08 20:00
-
-Contribution: 2020-03-08 20:01
-
-Contribution: 2020-03-12 20:00
-
-Contribution: 2020-03-12 20:01
-
-Contribution: 2020-03-12 20:02
-
-Contribution: 2020-03-12 20:03
-
-Contribution: 2020-03-12 20:04
-
-Contribution: 2020-03-12 20:05
-
-Contribution: 2020-03-12 20:06
-
-Contribution: 2020-03-12 20:07
-
-Contribution: 2020-03-13 20:00
-
-Contribution: 2020-03-13 20:01
-
-Contribution: 2020-03-13 20:02
-
-Contribution: 2020-03-13 20:03
-
-Contribution: 2020-03-13 20:04
-
-Contribution: 2020-03-13 20:05
-
-Contribution: 2020-03-13 20:06
-
-Contribution: 2020-03-13 20:07
-
-Contribution: 2020-03-19 20:00
-
-Contribution: 2020-03-19 20:01
-
-Contribution: 2020-03-19 20:02
-
-Contribution: 2020-03-19 20:03
-
-Contribution: 2020-03-19 20:04
-
-Contribution: 2020-03-19 20:05
-
-Contribution: 2020-03-19 20:06
-
-Contribution: 2020-03-19 20:07
-
-Contribution: 2020-03-30 20:00
-
-Contribution: 2020-03-30 20:01
-
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/fl4viooliveira/django_ecommerce/blob/master/LICENSE) file for details.
